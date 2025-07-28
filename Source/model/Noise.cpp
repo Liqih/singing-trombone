@@ -1,4 +1,4 @@
-#include "model/Noise.h"
+#include "Noise.h"
 
 #include <cmath>
 

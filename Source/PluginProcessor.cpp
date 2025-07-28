@@ -3,7 +3,7 @@
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
 
-using namespace juce;
+
 
 SingingTromboneProcessor::SingingTromboneProcessor()
     : AudioProcessor(getBusesProperties()),

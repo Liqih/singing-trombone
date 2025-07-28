@@ -1,4 +1,4 @@
-#include "engine/Lyrics.h"
+#include "Lyrics.h"
 
 namespace engine {
 

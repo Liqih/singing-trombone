@@ -2,9 +2,9 @@
 
 #include <JuceHeader.h>
 
-#include "model/Glottis.h"
-#include "model/Tract.h"
-#include "model/Noise.h"
+#include "Glottis.h"
+#include "Tract.h"
+#include "Noise.h"
 
 namespace model {
 

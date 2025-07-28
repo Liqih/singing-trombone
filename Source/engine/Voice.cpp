@@ -1,5 +1,5 @@
-#include "engine/Voice.h"
-#include "engine/Engine.h"
+#include "Voice.h"
+#include "Engine.h"
 #include <map>
 
 namespace engine {

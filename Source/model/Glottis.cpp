@@ -1,4 +1,4 @@
-#include "model/Glottis.h"
+#include "Glottis.h"
 
 namespace model {
 

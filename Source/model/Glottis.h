@@ -4,6 +4,8 @@
 
 #include "Noise.h"
 
+using namespace juce;
+
 namespace model {
 
 class Glottis
@@ -23,10 +25,9 @@ public:
     void setTouched(bool b) { isTouched = b; }
     void setVibrato(float v) { vibratoAmount = jlimit(0.0f, 1.0f, v); }
 
-private:
     void initWaveform(float lambda = 0.0f);
     float normalizedLFWaveform(float t);
-
+private:
 	SimplexNoise simplexNoise{};
 
     float sampleRate_r{ 1.0f / 44100.0f };

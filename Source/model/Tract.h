@@ -3,7 +3,7 @@
 #include <JuceHeader.h>
 #include <vector>
 
-#include "model/Glottis.h"
+#include "Glottis.h"
 
 namespace model {
 

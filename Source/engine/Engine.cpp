@@ -1,10 +1,9 @@
-#include "engine/Engine.h"
+#include "Engine.h"
 
 namespace engine {
 
 Engine::Engine()
-    : voicePool(*this)
-{
+    : voicePool(*this){
     parameters[PARAM_VOLUME].setValue(1.0f, true);
     parameters[PARAM_EXPRESSION].setValue(1.0f, true);
     parameters[PARAM_VIBRATO].setValue(0.0f, true);

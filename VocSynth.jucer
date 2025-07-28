@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Ej6F9Z" name="VocSynth" projectType="audioplug" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              cppLanguageStandard="20" pluginManufacturerCode="Nusi" companyWebsite="nusofting.net"
+              companyName="NUSofting" pluginFormats="buildStandalone,buildVST,buildVST3">
+  <MAINGROUP id="iNvizo" name="VocSynth">
+    <GROUP id="{CEC96CEF-90D1-F031-F9BD-BC8580E51B66}" name="Resources">
+      <GROUP id="{92C6A3A2-5800-706E-FE75-CACC3979A92E}" name="icons">
+        <FILE id="Hasz0m" name="icon64.png" compile="0" resource="1" file="Resources/icons/icon64.png"/>
+        <FILE id="f1Jmii" name="icon256.png" compile="0" resource="1" file="Resources/icons/icon256.png"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{EBA7DCF2-9BBD-5B3A-854E-2D211088BF5E}" name="Source">
+      <GROUP id="{47FE0FBB-FC4A-DF8F-758F-DD80B18BBDE4}" name="core">
+        <FILE id="dM1QjC" name="List.h" compile="0" resource="0" file="Source/core/List.h"/>
+        <FILE id="uxw06o" name="Queue.h" compile="0" resource="0" file="Source/core/Queue.h"/>
+      </GROUP>
+      <GROUP id="{BC83DEDD-E00C-028F-4E03-464DCB7D9FE1}" name="engine">
+        <FILE id="x64pig" name="Engine.cpp" compile="1" resource="0" file="Source/engine/Engine.cpp"/>
+        <FILE id="OWodBS" name="Engine.h" compile="0" resource="0" file="Source/engine/Engine.h"/>
+        <FILE id="EIYDs3" name="Envelope.cpp" compile="1" resource="0" file="Source/engine/Envelope.cpp"/>
+        <FILE id="MYQG9Z" name="Envelope.h" compile="0" resource="0" file="Source/engine/Envelope.h"/>
+        <FILE id="tj6Upu" name="Interpolator.cpp" compile="1" resource="0"
+              file="Source/engine/Interpolator.cpp"/>
+        <FILE id="OOKvS1" name="Interpolator.h" compile="0" resource="0" file="Source/engine/Interpolator.h"/>
+        <FILE id="VTbAJs" name="Lyrics.cpp" compile="1" resource="0" file="Source/engine/Lyrics.cpp"/>
+        <FILE id="yhZA7r" name="Lyrics.h" compile="0" resource="0" file="Source/engine/Lyrics.h"/>
+        <FILE id="UsQDBM" name="Parameter.cpp" compile="1" resource="0" file="Source/engine/Parameter.cpp"/>
+        <FILE id="YDu3o3" name="Parameter.h" compile="0" resource="0" file="Source/engine/Parameter.h"/>
+        <FILE id="UIbQqa" name="Voice.cpp" compile="1" resource="0" file="Source/engine/Voice.cpp"/>
+        <FILE id="Q7Ika2" name="Voice.h" compile="0" resource="0" file="Source/engine/Voice.h"/>
+      </GROUP>
+      <GROUP id="{D86AF1F9-B181-B0E1-27F1-CEC35DCDADE7}" name="model">
+        <FILE id="xMDWuI" name="Glottis.cpp" compile="1" resource="0" file="Source/model/Glottis.cpp"/>
+        <FILE id="smP0LP" name="Glottis.h" compile="0" resource="0" file="Source/model/Glottis.h"/>
+        <FILE id="P1W6S0" name="Noise.cpp" compile="1" resource="0" file="Source/model/Noise.cpp"/>
+        <FILE id="jXXrRp" name="Noise.h" compile="0" resource="0" file="Source/model/Noise.h"/>
+        <FILE id="FH2BOV" name="Tract.cpp" compile="1" resource="0" file="Source/model/Tract.cpp"/>
+        <FILE id="nVxNkJ" name="Tract.h" compile="0" resource="0" file="Source/model/Tract.h"/>
+        <FILE id="mXF8gD" name="VoiceProcessor.cpp" compile="1" resource="0"
+              file="Source/model/VoiceProcessor.cpp"/>
+        <FILE id="HXsY3y" name="VoiceProcessor.h" compile="0" resource="0"
+              file="Source/model/VoiceProcessor.h"/>
+      </GROUP>
+      <FILE id="c2mVVZ" name="LookAndFeel.cpp" compile="1" resource="0" file="Source/LookAndFeel.cpp"/>
+      <FILE id="uSlUxc" name="LookAndFeel.h" compile="0" resource="0" file="Source/LookAndFeel.h"/>
+      <FILE id="sRvyxs" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="TCltMN" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="EXiw6G" name="PluginParameters.cpp" compile="1" resource="0"
+            file="Source/PluginParameters.cpp"/>
+      <FILE id="mjWykB" name="PluginParameters.h" compile="0" resource="0"
+            file="Source/PluginParameters.h"/>
+      <FILE id="sgKCfS" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="j9lrZm" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="VocSynth" enablePluginBinaryCopyStep="1"
+                       vstBinaryLocation_x64="C:\work_zone\vstplugins\newer_builds"
+                       vstBinaryLocation_Win32="C:\work_zone\vstplugins\newer_builds"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="VocSynth" enablePluginBinaryCopyStep="1"
+                       vstBinaryLocation_x64="C:\work_zone\vstplugins\newer_builds"
+                       vstBinaryLocation_Win32="C:\work_zone\vstplugins\newer_builds"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE N repository/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE N repository/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

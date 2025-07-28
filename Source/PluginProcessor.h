@@ -6,6 +6,8 @@
 #include "PluginParameters.h"
 #include "engine/Engine.h"
 
+using namespace juce;
+
 class SingingTromboneProcessor : public juce::AudioProcessor,
                                  private juce::Timer
 {

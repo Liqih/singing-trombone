@@ -1,9 +1,9 @@
 #pragma once
 
 #include <JuceHeader.h>
-#include "core/List.h"
-#include "model/VoiceProcessor.h"
-#include "engine/Envelope.h"
+#include "../core/List.h"
+#include "../model/VoiceProcessor.h"
+#include "../engine/Envelope.h"
 #include <vector>
 #include <atomic>
 

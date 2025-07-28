@@ -2,11 +2,13 @@
 
 #include <JuceHeader.h>
 #include <bitset>
-#include "core/Queue.h"
-#include "engine/Interpolator.h"
-#include "engine/Parameter.h"
-#include "engine/Voice.h"
-#include "engine/Lyrics.h"
+#include "../core/Queue.h"
+#include "Interpolator.h"
+#include "Parameter.h"
+#include "Voice.h"
+#include "Lyrics.h"
+
+using namespace juce;
 
 namespace engine {
 
